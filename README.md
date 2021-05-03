@@ -1,26 +1,31 @@
-# MeetingRoomClient
+# Meeting Room Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+This is the [Angular](https://angular.io/) front-end version. Check the Java back-end [in this link](https://github.com/danielmrcl/meetingRooms-api).
 
-## Development server
+## To run:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Clone this repo `git clone https://github.com/danielmrcl/meetingRooms-project`.
+2. Download dependencies `npm install`.
+3. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
-## Code scaffolding
+## Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular CLI
+- npm
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Path: `/add`
 
-## Running unit tests
+<img src=".github/img/createroom.png" alt="Create Room" style="zoom:75%;" />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Path: `/rooms`
 
-## Running end-to-end tests
+<img src=".github/img/roomlist.png" alt="Room List" style="zoom:75%;" />
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Path: `/details/:id`
+
+<img src=".github/img/roomdetails.png" alt="Room Details" style="zoom:75%;" />
 
 ## Further help
 
