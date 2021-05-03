@@ -10,11 +10,11 @@ import { RoomService } from '../room.service';
   styleUrls: ['./room-list.component.css']
 })
 export class RoomListComponent implements OnInit {
-  rooms: any;
+  rooms: Observable<Room[]>;
 
   constructor(private roomService: RoomService, private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.reloadData();
   }
 

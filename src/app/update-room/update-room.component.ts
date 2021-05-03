@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { runInThisContext } from 'node:vm';
 import { Room } from '../room';
 import { RoomService } from '../room.service';
 
@@ -11,7 +10,7 @@ import { RoomService } from '../room.service';
 })
 export class UpdateRoomComponent implements OnInit {
   id: number;
-  room: any;
+  room: Room;
   submitted: Boolean = false;
 
   constructor(private roomService: RoomService, private router: Router, private route: ActivatedRoute) { }
